@@ -1,2 +1,2 @@
 # dotfiles
-Collection of dotfiles for configuring linux
+Collection of .files, zsh etc for configuring linux.

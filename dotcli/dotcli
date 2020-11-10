@@ -8,9 +8,9 @@ cli_help() {
   cli_name=${0##*/}
   echo "
 $cli_name
-DOTCLI
-Version: $(cat $DOTCLI_WORKDIR/VERSION)
-https://github.com/aki21j/dotfiles
+
+Version: $(cat $DOTCLI_WORKDIR/version)
+https://github.com/aki21j/dotfiles/dotcli
 
 Usage: $cli_name [command]
 

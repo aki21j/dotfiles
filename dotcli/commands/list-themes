@@ -2,7 +2,7 @@
 set -e
 . "$DOTCLI_WORKDIR/common"
 
-cli_help_deploy() {
+cli_help_list_themes() {
   echo "
 Command: ls-themes
 

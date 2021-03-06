@@ -1,0 +1,56 @@
+install feh for wallpapers
+
+- sudo apt-get install feh
+- exec_always feh --bg-scale <wallpaper-path>
+
+
+- check here for multimedia keys and touchpad https://faq.i3wm.org/question/3747/enabling-multimedia-keys/?answer=3759#post-id-3759
+
+
+assign workspace vars:
+- set $workspace1 "1:editor"
+
+force app on a workspace:
+
+get class of the app:
+	- xprop
+	- click on the app, select second value under class
+	- assign [class="<className>"] $workspace<no>
+
+
+to assign fonts to workspaces:
+- download fontawesome .zip from git
+- unzip <fontawesome>
+- copy .ttf file to ~./fonts
+
+open FA cheatsheet, copy icon and paste beside the name of the workspace. Restart
+
+
+
+- to change font, download fonts, copy .ttf files to ~/.fonts/
+- update config: font pango:System San Francisco Display 8.5
+
+
+- to update gtk fonts: 
+	- sudo apt-get install lxappearance
+
+
+- download and install gtk arc theme from here: 
+	- https://github.com/horst3180/Arc-theme
+
+
+- install moka icon theme pack 
+
+
+- replacing dmenu with rofi
+- install compton for transparent windows
+	- exec compton -f
+
+
+- check i3 locks here: https://www.reddit.com/r/unixporn/comments/3358vu/i3lock_unixpornworthy_lock_screen
+
+
+- for screen brightness
+
+
+- for touchpad follow: https://cravencode.com/post/essentials/enable-tap-to-click-in-i3wm/
